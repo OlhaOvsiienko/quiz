@@ -8,7 +8,7 @@ const ProgressBar = ({ value }) => {
     const clampedValue = Math.max(0, Math.min(100, value))
     
     return (
-        <Box>
+        <Box sx={styles.progressBox}>
             <LinearProgress 
                 sx={styles.progressBar}
                 variant="determinate" 

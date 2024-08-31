@@ -9,14 +9,17 @@ const Result = ({ correct }) => {
 
     return (
         <Box sx={styles.result}>
-            <img src={winner} alt='Winner Icon' /> 
+            <Box sx={styles.img}>
+                <img src={winner} alt='Winner Icon' /> 
+            </Box>
+            
             <Typography variant='h5'>
                 You answered {correct} questions from {QuizContent.length}!
             </Typography>
             <Button
                 variant="contained"
-                color="primary"
                 size="large"
+                sx={styles.button}
                 onClick={() => {}}
             >
                 Try again

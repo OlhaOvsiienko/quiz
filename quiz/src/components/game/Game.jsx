@@ -46,7 +46,7 @@ const Game = () => {
                             {questionTitle}
                         </Typography>
                     </Box>
-                    <List>
+                    <List sx={styles.list}>
                         {answerVariants.map((answer, index) => (
                             <ListItem 
                                 key={index} 

@@ -25,7 +25,6 @@ export const styles = {
    },
 
    button: {
-        backgroundColor: '',
         borderRadius: '50px',
         boxShadow: 'none',
         '&:hover': {

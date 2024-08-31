@@ -73,4 +73,18 @@ export const styles = {
     marginBottom: "25px",
     display: "flex",
   },
+
+  finishButton: {
+    borderRadius: "5px",
+    boxShadow: "none",
+    "&:hover": {
+      boxShadow: "none",
+      color: "black",
+    },
+    backgroundColor: "#56859c",
+    textTransform: "none",
+    marginTop: "20px",
+    fontSize: "18px",
+  },
+  
 };

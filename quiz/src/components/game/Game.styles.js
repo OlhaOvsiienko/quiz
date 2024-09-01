@@ -86,5 +86,11 @@ export const styles = {
     marginTop: "20px",
     fontSize: "18px",
   },
-  
+
+  questionNumberBox: {
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 };

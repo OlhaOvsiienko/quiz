@@ -16,4 +16,18 @@ export const tests = [
     answers: ["Africa", "North America", "South America"],
     correct: 1,
   },
+
+  {
+    question: "What is the deepest river in the world?",
+    answers: ["Dnieper", "Nil", "Congo"],
+    correct: 2,
+  },
+
+  {
+    question: "What is the largest desert in the world?",
+    answers: ["Sahara", "Gobi", "Antarctic desert"],
+    correct: 2,
+  },
+
+  
 ];

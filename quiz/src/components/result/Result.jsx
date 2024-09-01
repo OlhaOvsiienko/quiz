@@ -43,7 +43,7 @@ import { tests } from "../quiz-content/QuizContent";
 import sadFace from "../../img/sadFace.png";
 import winner from "../../img/winner.png";
 
-const Result = ({ answers, tryAgain, correctAnswersCount }) => {
+const Result = ({ tryAgain, correctAnswersCount }) => {
   
   return (
     <Box sx={styles.result}>

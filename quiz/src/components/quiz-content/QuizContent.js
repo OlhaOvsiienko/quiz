@@ -28,6 +28,4 @@ export const tests = [
     answers: ["Sahara", "Gobi", "Antarctic desert"],
     correct: 2,
   },
-
-  
 ];

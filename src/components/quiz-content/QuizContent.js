@@ -19,13 +19,13 @@ export const tests = [
 
   {
     question: "What is the deepest river in the world?",
-    answers: ["Dnieper", "Nil", "Congo"],
+    answers: ["The Dnieper", "The Nile", "The Congo"],
     correct: 2,
   },
 
   {
     question: "What is the largest desert in the world?",
-    answers: ["Sahara", "Gobi", "Antarctic desert"],
+    answers: ["The Sahara", "The Gobi", "The Antarctic desert"],
     correct: 2,
   },
 ];
